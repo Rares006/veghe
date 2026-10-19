@@ -15,7 +15,7 @@ cp -R agent "$STAGE/"
 cp -R scripts "$STAGE/"
 cp README.md LICENSE "Instaleaza.command" "$STAGE/"
 [ -f ecrane-aplicatie.jpg ] && cp ecrane-aplicatie.jpg "$STAGE/"
-[ -f dist/ControlLaptop.ipa ] && { mkdir -p "$STAGE/iphone-nativ"; cp dist/ControlLaptop.ipa "$STAGE/iphone-nativ/"; }
+[ -f dist/Veghe.ipa ] && { mkdir -p "$STAGE/iphone-nativ"; cp dist/Veghe.ipa "$STAGE/iphone-nativ/"; }
 
 # Curățenie
 find "$STAGE" -name ".DS_Store" -delete

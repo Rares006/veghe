@@ -25,11 +25,11 @@ iPhone (web app în Safari)  ──Tailscale──▶  agent pe Mac (Node, port 
 | `agent/` | serverul de pe Mac, fără dependențe (Node 20+); în `agent/public/app` e aplicația web pentru iPhone |
 | `app/` | proiectul Xcode: `ControlLaptopMac` (aplicația de Mac) și `ControlLaptop` (aplicația nativă de iPhone, opțională) |
 | `scripts/` | instalare agent, hook-uri, autentificare `claude` |
-| `dist/` | `ControlLaptop.ipa`, aplicația nativă de iPhone pentru Sideloadly |
+| `dist/` | fișierele generate (`Veghe.zip`, `Veghe.ipa`); se atașează la Releases și nu sunt în git |
 
 ## Descarcă (fără App Store)
 
-1. Intră la **[Releases](../../releases)** și descarcă `ControlLaptop.zip`.
+1. Intră la **[Releases](../../releases)** și descarcă `Veghe.zip`.
 2. Dezarhivează și mută folderul unde vrei să rămână (ex. în `Aplicații` sau `Documente`).
 3. Dublu-click pe **`Instaleaza.command`**. La prima rulare, dacă macOS blochează fișierul
    („dezvoltator neidentificat”), fă **click-dreapta → Open** o singură dată, apoi **Open**.
@@ -91,15 +91,15 @@ Agentul servește aplicația pentru iPhone ca pagină web, în stilul Veghe (în
 
 Nu are nevoie de Xcode, de cont Apple sau de reinstalare. Când actualizezi agentul, telefonul ia singur versiunea nouă.
 
-> **De ce nu aplicația nativă?** MacBook Pro 2017 rămâne la macOS Ventura, deci la Xcode 15.2. Xcode 15.2 nu poate pregăti un iPhone cu iOS 26 („Waiting to reconnect”), așa că nu poate nici înregistra telefonul și nici crea profilul. Ținta nativă `ControlLaptop` din proiect merge pe un Mac cu Xcode recent. Altă variantă e Sideloadly, cu `.ipa`-ul din `dist/` (secțiunea 8).
+> **De ce web app și nu aplicație nativă?** Instalarea unei aplicații native pe iPhone cere Xcode, iar un Xcode vechi nu poate pregăti un iPhone cu iOS mult mai nou (rămâne la „Waiting to reconnect”). Pe Mac-urile care nu pot instala un Xcode recent (de exemplu cele rămase la macOS Ventura, cu Xcode 15.2) nu se poate. Ținta nativă `ControlLaptop` din proiect merge pe un Mac cu Xcode recent. Altă variantă e Sideloadly, cu `.ipa`-ul din `dist/` (secțiunea 8).
 
 ### 8. Aplicația nativă de iPhone, prin Sideloadly (opțional)
 
-Pe lângă web app, poți instala aplicația nativă din `dist/ControlLaptop.ipa`. Fișierul e construit aici, nesemnat; Sideloadly îl semnează cu Apple ID-ul tău gratuit și îl pune pe telefon, fără Xcode.
+Pe lângă web app, poți instala aplicația nativă `Veghe.ipa` (din Releases). Fișierul e construit aici, nesemnat; Sideloadly îl semnează cu Apple ID-ul tău gratuit și îl pune pe telefon, fără Xcode.
 
 1. Descarcă Sideloadly de pe sideloadly.io și deschide-l.
 2. Conectează iPhone-ul prin cablu și deblochează-l.
-3. Trage `dist/ControlLaptop.ipa` în Sideloadly, scrie Apple ID-ul și apasă **Start**. Parola ți-o cere Sideloadly, nu Veghe.
+3. Trage `Veghe.ipa` în Sideloadly, scrie Apple ID-ul și apasă **Start**. Parola ți-o cere Sideloadly, nu Veghe.
 4. Pe iPhone: Configurări → General → **VPN și gestionarea dispozitivului** (VPN & Device Management) → ai încredere în aplicația semnată cu Apple ID-ul tău.
 5. Pe iPhone: Configurări → Confidențialitate și securitate → **Mod dezvoltator** → activează → Repornește → **Activează**. Opțiunea apare după ce Sideloadly a instalat aplicația.
 6. Deschide Veghe pe iPhone → **Scanează codul QR** → îndreaptă camera spre codul din aplicația de Mac (fila Setări).
@@ -112,7 +112,7 @@ Ca să refaci `.ipa`-ul după o modificare:
 xcodebuild -project app/ControlLaptop.xcodeproj -scheme ControlLaptop -configuration Release -sdk iphoneos -destination 'generic/platform=iOS' -derivedDataPath /tmp/cl-ipa CODE_SIGNING_ALLOWED=NO build
 ```
 
-Apoi pune `ControlLaptop.app` din `/tmp/cl-ipa/Build/Products/Release-iphoneos/` într-un folder `Payload` și arhivează-l ca `ControlLaptop.ipa`.
+Apoi pune `ControlLaptop.app` din `/tmp/cl-ipa/Build/Products/Release-iphoneos/` într-un folder `Payload` și arhivează-l ca `Veghe.ipa`.
 
 ## Securitate
 
@@ -159,12 +159,12 @@ node scripts/install-hooks.mjs --remove
 
 ## Susține proiectul
 
-Veghe e gratuit și open source. Dacă te ajută, poți dona cât vrei (de la 10 lei 🙂):
+Veghe e gratuit și open source. Dacă te ajută, dă-i o stea ⭐ pe GitHub.
 
+<!-- Donații: pune link-urile reale aici și în .github/FUNDING.yml, apoi scoate comentariul.
 - **Revolut:** https://revolut.me/numeletau
 - **PayPal:** https://paypal.me/numeletau
-
-*(Înlocuiește link-urile de mai sus cu ale tale, și pe cele din `.github/FUNDING.yml`.)*
+-->
 
 ## Licență
 

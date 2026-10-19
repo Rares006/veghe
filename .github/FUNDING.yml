@@ -4,6 +4,7 @@
 # github: numeleTauDeUtilizator        # necesită GitHub Sponsors activat
 # ko_fi: numeleTauKoFi
 # buy_me_a_coffee: numeleTau
-custom:
-  - "https://revolut.me/numeletau"      # înlocuiește cu link-ul tău Revolut
-  - "https://paypal.me/numeletau"       # sau PayPal.me
+# Scoate „#” din fața liniilor de mai jos după ce pui link-urile tale:
+# custom:
+#   - "https://revolut.me/numeletau"
+#   - "https://paypal.me/numeletau"
