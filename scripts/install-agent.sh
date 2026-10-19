@@ -16,6 +16,13 @@ fi
 
 mkdir -p "$LOGDIR" "$HOME/Library/LaunchAgents"
 
+# Agentul rulează dintr-o copie din Application Support, nu din folderul
+# proiectului: Desktop, Documents și Downloads sunt protejate de macOS, iar o
+# cerere de acces fără răspuns l-ar bloca chiar la pornire.
+APPDIR="$HOME/Library/Application Support/ControlLaptop/agent"
+mkdir -p "$APPDIR"
+rsync -a --delete --exclude 'test/' "$ROOT/agent/" "$APPDIR/"
+
 cat > "$PLIST" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -25,9 +32,9 @@ cat > "$PLIST" <<EOF
   <key>ProgramArguments</key>
   <array>
     <string>$NODE</string>
-    <string>$ROOT/agent/server.js</string>
+    <string>$APPDIR/server.js</string>
   </array>
-  <key>WorkingDirectory</key><string>$ROOT/agent</string>
+  <key>WorkingDirectory</key><string>$APPDIR</string>
   <key>RunAtLoad</key><true/>
   <key>KeepAlive</key><true/>
   <key>ThrottleInterval</key><integer>10</integer>
@@ -56,14 +63,15 @@ fi
 # „Input/output error” și agentul rămâne oprit.
 SERVICE="gui/$(id -u)/$LABEL"
 launchctl bootout "$SERVICE" 2>/dev/null || true
-for _ in $(seq 1 20); do
+# Un agent blocat nu răspunde la SIGTERM; launchd îl oprește forțat după ~20 s.
+for _ in $(seq 1 60); do
   launchctl print "$SERVICE" >/dev/null 2>&1 || break
   sleep 0.5
 done
-for incercare in 1 2 3 4 5; do
+for incercare in $(seq 1 10); do
   launchctl bootstrap "gui/$(id -u)" "$PLIST" 2>/dev/null && break
-  if [ "$incercare" -eq 5 ]; then
-    echo "Nu pot porni agentul (launchctl bootstrap a eșuat de 5 ori)." >&2
+  if [ "$incercare" -eq 10 ]; then
+    echo "Nu pot porni agentul (launchctl bootstrap a eșuat de 10 ori)." >&2
     exit 1
   fi
   sleep 1

@@ -53,7 +53,7 @@ Instalează Tailscale pe Mac (de pe tailscale.com sau din App Store) și pe iPho
 bash scripts/install-agent.sh
 ```
 
-Agentul pornește singur la fiecare login și repornește dacă se oprește. Jurnalul e în `~/Library/Logs/ControlLaptop/agent.log`.
+Agentul pornește singur la fiecare login și repornește dacă se oprește. Jurnalul e în `~/Library/Logs/ControlLaptop/agent.log`. Scriptul copiază agentul în `~/Library/Application Support/ControlLaptop/agent` și îl rulează de acolo, pentru că folderele Desktop, Documents și Downloads sunt protejate de macOS. După ce modifici codul din `agent/`, rulează din nou scriptul.
 
 **Captura de ecran**: prima cerere de captură face macOS să ceară permisiunea. Bifează `node` în System Settings → Privacy & Security → Screen Recording. Dacă nu apare în listă, adaugă-l cu „+” (`/usr/local/bin/node`) și rulează din nou scriptul de instalare.
 
