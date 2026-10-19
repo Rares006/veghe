@@ -16,9 +16,12 @@ cp -R scripts "$STAGE/"
 cp README.md LICENSE "Instaleaza.command" "$STAGE/"
 [ -f ecrane-aplicatie.jpg ] && cp ecrane-aplicatie.jpg "$STAGE/"
 [ -f dist/Veghe.ipa ] && { mkdir -p "$STAGE/iphone-nativ"; cp dist/Veghe.ipa "$STAGE/iphone-nativ/"; }
+# Aplicația de Mac gata construită (cu `xcodebuild`), ca să nu fie nevoie de Xcode.
+[ -d dist/Veghe.app ] && ditto dist/Veghe.app "$STAGE/Veghe.app"
 
 # Curățenie
 find "$STAGE" -name ".DS_Store" -delete
+find "$STAGE" -name "*.icloud" -delete
 find "$STAGE" -name "*.log" -delete
 rm -rf "$STAGE/agent/test" 2>/dev/null || true
 

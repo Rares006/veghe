@@ -30,15 +30,19 @@ iPhone (web app în Safari)  ──Tailscale──▶  agent pe Mac (Node, port 
 ## Descarcă (fără App Store)
 
 1. Intră la **[Releases](../../releases)** și descarcă `Veghe.zip`.
-2. Dezarhivează și mută folderul unde vrei să rămână (ex. în `Aplicații` sau `Documente`).
+2. Dezarhivează și mută folderul `Veghe` unde vrei să rămână. Mută și **`Veghe.app`** din el în **Aplicații**.
 3. Dublu-click pe **`Instaleaza.command`**. La prima rulare, dacă macOS blochează fișierul
    („dezvoltator neidentificat”), fă **click-dreapta → Open** o singură dată, apoi **Open**.
 4. Urmează ce-ți spune installer-ul (Node.js, permisiune de ecran, login Claude, împerechere iPhone).
+5. Deschide **Veghe** din Aplicații (prima dată tot cu **click-dreapta → Open**). Pe iPhone, scanezi codul QR din fila **Setări**.
+
+În arhivă e și `iphone-nativ/Veghe.ipa`, aplicația nativă de iPhone, pentru cine vrea s-o instaleze cu Sideloadly (secțiunea 8).
 
 > Aplicația e **gratuită și open source** (licență MIT). Dacă îți e de folos, poți
-> [dona](#susține-proiectul) cât vrei — nu e obligatoriu.
+> lăsa o stea ⭐ pe GitHub.
 
-Ai nevoie de: un Mac (treaz, pe încărcător), **Node.js** (nodejs.org), un cont **Claude**
+Ai nevoie de: un Mac (treaz, pe încărcător), **Node.js** (nodejs.org), **Xcode Command Line Tools**
+(`xcode-select --install`, pentru click-urile de la distanță și camera laptopului), un cont **Claude**
 (pentru task-uri) și, opțional, **Tailscale** ca să-l vezi de oriunde.
 
 ## Instalare pas cu pas

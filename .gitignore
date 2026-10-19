@@ -15,7 +15,8 @@ DerivedData/
 # Config local cu token (NU se publică)
 config.json
 
-# Arhiva de release (se atașează la GitHub Releases, nu în git)
-dist/*.zip
-dist/Veghe/
-dist/ControlLaptop/
+# Fișierele de release (se atașează la GitHub Releases, nu în git)
+dist/
+
+# Copii-fantomă create de sincronizarea iCloud (Desktop & Documents)
+*.icloud
