@@ -1,0 +1,9 @@
+# Butonul „Sponsor” de pe pagina repo-ului.
+# Completează-le pe cele pe care le folosești și șterge restul.
+
+# github: numeleTauDeUtilizator        # necesită GitHub Sponsors activat
+# ko_fi: numeleTauKoFi
+# buy_me_a_coffee: numeleTau
+custom:
+  - "https://revolut.me/numeletau"      # înlocuiește cu link-ul tău Revolut
+  - "https://paypal.me/numeletau"       # sau PayPal.me

@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F2FA348B7B2D8D18B48CD17 = {isa = PBXBuildFile; fileRef = 19E19F1C4E3332ACE8FC8F38; };
+		1911751E31F8B6BB6F212EA1 = {isa = PBXBuildFile; fileRef = 8AE81C9F5FBDA94EF274F61D; };
+		1A05DB8D3AD3ADA058E0B663 = {isa = PBXBuildFile; fileRef = 62EADA90BC98F4CAE9CCAEF5; };
+		2721B5E769673D9A8C380D6B = {isa = PBXBuildFile; fileRef = C5AC4E2181FA290E28B14EE4; };
+		310619D547148C4E2F88FB98 = {isa = PBXBuildFile; fileRef = 517556905B43F9954BE8261E; };
+		3D0C02E2B20271E0618944D2 = {isa = PBXBuildFile; fileRef = 8AE81C9F5FBDA94EF274F61D; };
+		4073994F53389D9462B28F63 = {isa = PBXBuildFile; fileRef = 19E19F1C4E3332ACE8FC8F38; };
+		432FC76C33C6F5D6595E1682 = {isa = PBXBuildFile; fileRef = C9AD4003BD2201FA1C28790C; };
+		444307965297F3FA68D7B90B = {isa = PBXBuildFile; fileRef = C9AD4003BD2201FA1C28790C; };
+		52E6CEECA69424ED6C45C9A1 = {isa = PBXBuildFile; fileRef = BDC0F9428BBBC0D5A30793CC; };
+		56CECFB474FBF967DFB0E04C = {isa = PBXBuildFile; fileRef = 627E675AA4B0B092AA5D23B3; };
+		5FE5617C0240580C484B30F2 = {isa = PBXBuildFile; fileRef = BDC0F9428BBBC0D5A30793CC; };
+		6953A0FC105018327F469445 = {isa = PBXBuildFile; fileRef = E692F3703AB8CFEA3178F7CE; };
+		6C29A0F28FACD283ADB4EC54 = {isa = PBXBuildFile; fileRef = A01D11BC81ACD39F2EF10171; };
+		6D3FCD385833A8BCB3D3EC54 = {isa = PBXBuildFile; fileRef = C5AC4E2181FA290E28B14EE4; };
+		7219A36464CE53AA42F2249D = {isa = PBXBuildFile; fileRef = A1940FFC663DF12FDAEEE73D; };
+		7C8FBBAFEA34F28E151550AF = {isa = PBXBuildFile; fileRef = 971B0A66C7BBDAECF63D9EC4; };
+		820A8E7CEB07A72965991C8F = {isa = PBXBuildFile; fileRef = E692F3703AB8CFEA3178F7CE; };
+		971B56DECF80EE2F7327C128 = {isa = PBXBuildFile; fileRef = 62EADA90BC98F4CAE9CCAEF5; };
+		A0E3A47A4E1A2EAA14726784 = {isa = PBXBuildFile; fileRef = A1940FFC663DF12FDAEEE73D; };
+		A127F606344CFC3D501E2C60 = {isa = PBXBuildFile; fileRef = 7687F99CB36A1310247FF313; };
+		AF97CB97050AC03DDF7EA699 = {isa = PBXBuildFile; fileRef = B930F9CC913511005B17735C; };
+		B237C5A6BE1002277C5E962D = {isa = PBXBuildFile; fileRef = A01D11BC81ACD39F2EF10171; };
+		B50B2BA9DC4D3E2745EAC811 = {isa = PBXBuildFile; fileRef = 9888CC6EFB1EDE404610A77E; };
+		C3F230BF733F5CC4CFDDEB9D = {isa = PBXBuildFile; fileRef = 815D32501346086B98B6405F; };
+		C7CEE03D97015D03B1C1BA15 = {isa = PBXBuildFile; fileRef = 971B0A66C7BBDAECF63D9EC4; };
+		CF68FE31CCBBD0A2C36E9E1E = {isa = PBXBuildFile; fileRef = B930F9CC913511005B17735C; };
+		D14054EB771CDBFE26A146E1 = {isa = PBXBuildFile; fileRef = D0D4344AB022A0DCEEAB2CF0; };
+		F452D2A050C67ED6D5B5230D = {isa = PBXBuildFile; fileRef = D0D4344AB022A0DCEEAB2CF0; };
+		FB16EE4B33D7BAABC3CA8E13 = {isa = PBXBuildFile; fileRef = 815D32501346086B98B6405F; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19E19F1C4E3332ACE8FC8F38 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		20EFFA53D963249AE8282F3B = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517556905B43F9954BE8261E = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlLaptopMacApp.swift; sourceTree = "<group>"; };
+		5BFDBB197D792EFDF2FBAE25 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veghe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		627E675AA4B0B092AA5D23B3 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingView.swift; sourceTree = "<group>"; };
+		62EADA90BC98F4CAE9CCAEF5 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		7687F99CB36A1310247FF313 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlLaptopApp.swift; sourceTree = "<group>"; };
+		815D32501346086B98B6405F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		8AE81C9F5FBDA94EF274F61D = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		971B0A66C7BBDAECF63D9EC4 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		9888CC6EFB1EDE404610A77E = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanner.swift; sourceTree = "<group>"; };
+		A01D11BC81ACD39F2EF10171 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		A1940FFC663DF12FDAEEE73D = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		B930F9CC913511005B17735C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BDC0F9428BBBC0D5A30793CC = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
+		C4A22E69F9CDB64542F00579 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AC4E2181FA290E28B14EE4 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C9AD4003BD2201FA1C28790C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerasView.swift; sourceTree = "<group>"; };
+		D0D4344AB022A0DCEEAB2CF0 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E692F3703AB8CFEA3178F7CE = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		EB36CA137DF6AB5B26A87DA8 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlLaptop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8959512DD5BE3A1C62FEAEC7 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3617CAD3AC3725E3A2E0DDC = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060DB71474E8D6B185C34AA1 = {
+			isa = PBXGroup;
+			children = (
+				517556905B43F9954BE8261E,
+				C4A22E69F9CDB64542F00579,
+				627E675AA4B0B092AA5D23B3,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		2AC8BA37DAC32D5437812408 = {
+			isa = PBXGroup;
+			children = (
+				EB36CA137DF6AB5B26A87DA8,
+				5BFDBB197D792EFDF2FBAE25,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		337E1799FE35959003884C28 = {
+			isa = PBXGroup;
+			children = (
+				C9AD4003BD2201FA1C28790C,
+				E692F3703AB8CFEA3178F7CE,
+				971B0A66C7BBDAECF63D9EC4,
+				A1940FFC663DF12FDAEEE73D,
+				BDC0F9428BBBC0D5A30793CC,
+				B930F9CC913511005B17735C,
+				8AE81C9F5FBDA94EF274F61D,
+				19E19F1C4E3332ACE8FC8F38,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4BB4DDA056F6DB57003A27FE = {
+			isa = PBXGroup;
+			children = (
+				7687F99CB36A1310247FF313,
+				20EFFA53D963249AE8282F3B,
+				9888CC6EFB1EDE404610A77E,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8A2934BF8E67675297A3835F = {
+			isa = PBXGroup;
+			children = (
+				060DB71474E8D6B185C34AA1,
+				9D10A42589C8F5479091BEBD,
+				4BB4DDA056F6DB57003A27FE,
+				D0D4344AB022A0DCEEAB2CF0,
+				2AC8BA37DAC32D5437812408,
+			);
+			sourceTree = "<group>";
+		};
+		9D10A42589C8F5479091BEBD = {
+			isa = PBXGroup;
+			children = (
+				337E1799FE35959003884C28,
+				62EADA90BC98F4CAE9CCAEF5,
+				A01D11BC81ACD39F2EF10171,
+				815D32501346086B98B6405F,
+				C5AC4E2181FA290E28B14EE4,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5618C1FFBDA101CDA84416F6 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0A290388CB84721E2B08B1;
+			buildPhases = (
+				A02BB7CA89A66B9A122AE178,
+				8959512DD5BE3A1C62FEAEC7,
+				5F9960D363DEA3CD185EF134,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControlLaptopMac;
+			productName = ControlLaptopMac;
+			productReference = 5BFDBB197D792EFDF2FBAE25;
+			productType = "com.apple.product-type.application";
+		};
+		FA3FBF82FECA57B2B9E09365 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB2556BFAA250923435FE86;
+			buildPhases = (
+				D942567C57311A48F8E1872A,
+				D3617CAD3AC3725E3A2E0DDC,
+				7E033EC23D51086C2CF4293C,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControlLaptop;
+			productName = ControlLaptop;
+			productReference = EB36CA137DF6AB5B26A87DA8;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+			};
+			buildConfigurationList = EDDA1AC06BAE1109D0D5969F;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ro;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ro,
+				Base,
+			);
+			mainGroup = 8A2934BF8E67675297A3835F;
+			productRefGroup = 2AC8BA37DAC32D5437812408;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3FBF82FECA57B2B9E09365,
+				5618C1FFBDA101CDA84416F6,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F9960D363DEA3CD185EF134 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14054EB771CDBFE26A146E1,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E033EC23D51086C2CF4293C = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F452D2A050C67ED6D5B5230D,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A02BB7CA89A66B9A122AE178 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A05DB8D3AD3ADA058E0B663,
+				B237C5A6BE1002277C5E962D,
+				FB16EE4B33D7BAABC3CA8E13,
+				6D3FCD385833A8BCB3D3EC54,
+				444307965297F3FA68D7B90B,
+				820A8E7CEB07A72965991C8F,
+				C7CEE03D97015D03B1C1BA15,
+				A0E3A47A4E1A2EAA14726784,
+				5FE5617C0240580C484B30F2,
+				CF68FE31CCBBD0A2C36E9E1E,
+				3D0C02E2B20271E0618944D2,
+				0F2FA348B7B2D8D18B48CD17,
+				310619D547148C4E2F88FB98,
+				56CECFB474FBF967DFB0E04C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D942567C57311A48F8E1872A = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971B56DECF80EE2F7327C128,
+				6C29A0F28FACD283ADB4EC54,
+				C3F230BF733F5CC4CFDDEB9D,
+				2721B5E769673D9A8C380D6B,
+				432FC76C33C6F5D6595E1682,
+				6953A0FC105018327F469445,
+				7C8FBBAFEA34F28E151550AF,
+				7219A36464CE53AA42F2249D,
+				52E6CEECA69424ED6C45C9A1,
+				AF97CB97050AC03DDF7EA699,
+				1911751E31F8B6BB6F212EA1,
+				4073994F53389D9462B28F63,
+				A127F606344CFC3D501E2C60,
+				B50B2BA9DC4D3E2745EAC811,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B4703980EFA6C272103F105 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Veghe;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.betania.controllaptop;
+				PRODUCT_NAME = ControlLaptop;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		708B97703E5901A8DA59885C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Veghe;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.betania.controllaptop;
+				PRODUCT_NAME = ControlLaptop;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E87DB15572BDC75B854D1AC = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD4728F9C7B108CA99E7212E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mac/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Veghe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.betania.controllaptop.mac;
+				PRODUCT_NAME = Veghe;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E2C3AFA708EB34F6D8A28310 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mac/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Veghe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.betania.controllaptop.mac;
+				PRODUCT_NAME = Veghe;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFB506F465394A8A9E872295 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A0A290388CB84721E2B08B1 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4728F9C7B108CA99E7212E,
+				E2C3AFA708EB34F6D8A28310,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB2556BFAA250923435FE86 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708B97703E5901A8DA59885C,
+				1B4703980EFA6C272103F105,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDDA1AC06BAE1109D0D5969F = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E87DB15572BDC75B854D1AC,
+				EFB506F465394A8A9E872295,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595;
+}

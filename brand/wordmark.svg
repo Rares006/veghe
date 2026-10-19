@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 400" role="img" aria-label="Veghe">
+  <defs>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10b981"/>
+      <stop offset="0.5" stop-color="#059669"/>
+      <stop offset="1" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(20 20) scale(0.3515625)">
+    <rect width="1024" height="1024" rx="224" fill="#111"/>
+    <path d="M172 512 Q512 196 852 512 Q512 828 172 512 Z" fill="none" stroke="url(#green)" stroke-width="56" stroke-linejoin="round"/>
+    <circle cx="512" cy="512" r="150" fill="url(#green)"/>
+    <circle cx="512" cy="512" r="62" fill="#0a0a0a"/>
+    <circle cx="566" cy="456" r="26" fill="#fff" fill-opacity="0.92"/>
+  </g>
+  <text x="440" y="262" font-family="-apple-system, 'SF Pro Display', Inter, 'Segoe UI', sans-serif" font-size="210" font-weight="800" letter-spacing="-6" fill="url(#green)">Veghe</text>
+  <text x="446" y="335" font-family="-apple-system, 'SF Pro Text', Inter, 'Segoe UI', sans-serif" font-size="46" font-weight="500" fill="#9ca3af">laptopul tău, de pe telefon</text>
+</svg>

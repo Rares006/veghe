@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>ro.betania.controllaptop.pair</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>controllaptop</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<!-- Agentul vorbește HTTP simplu; criptarea o face Tailscale (WireGuard). -->
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchBackground</string>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera citește codul QR din aplicația Veghe de pe Mac.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Veghe se conectează la agentul de pe Mac-ul tău.</string>
+</dict>
+</plist>

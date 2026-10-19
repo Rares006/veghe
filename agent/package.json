@@ -1,0 +1,13 @@
+{
+  "name": "control-laptop-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agentul de pe Mac pentru aplicația Veghe: starea sesiunilor Claude, coada de task-uri, captura de ecran, controlul de la distanță și camera laptopului.",
+  "type": "module",
+  "main": "server.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  }
+}

@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Xcode
+app/build/
+app/build*/
+*.xcuserstate
+xcuserdata/
+DerivedData/
+/tmp/cl-ipa/
+
+# Loguri / rulare
+*.log
+
+# Config local cu token (NU se publică)
+config.json
+
+# Arhiva de release (se atașează la GitHub Releases, nu în git)
+dist/*.zip
+dist/Veghe/
+dist/ControlLaptop/

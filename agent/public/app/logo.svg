@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Veghe">
+  <!-- Veghe: un ochi deschis care veghează laptopul. Culorile:
+       fundal #0a0a0a–#141414, verde smarald #10b981 → #059669. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10b981"/>
+      <stop offset="0.5" stop-color="#059669"/>
+      <stop offset="1" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <rect x="6" y="6" width="1012" height="1012" rx="218" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="4"/>
+  <path d="M172 512 Q512 196 852 512 Q512 828 172 512 Z" fill="none" stroke="url(#green)" stroke-width="56" stroke-linejoin="round"/>
+  <circle cx="512" cy="512" r="150" fill="url(#green)"/>
+  <circle cx="512" cy="512" r="62" fill="#0a0a0a"/>
+  <circle cx="566" cy="456" r="26" fill="#ffffff" fill-opacity="0.92"/>
+</svg>
